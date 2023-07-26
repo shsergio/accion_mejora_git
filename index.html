@@ -3,22 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrusel con Bootstrap y JS</title>
+  <title>Mi página web</title>
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="bg-dark text-white py-3">
-    <div class="container d-flex align-items-center">
-      <div class="logo me-auto">
-        <img src="img/logo.png" alt="Logo de la página" height="50">
+  <header class="bg-dark text-white">
+    <div class="container py-3">
+      <div class="d-flex align-items-center">
+        <div class="logo me-auto">
+          <img src="img/logo.png" alt="Logo de la página" height="50">
+        </div>
+        <nav class="nav">
+          <a class="nav-link active" href="#">Inicio</a>
+          <a class="nav-link" href="#">Acerca de</a>
+          <a class="nav-link" href="#">Servicios</a>
+          <a class="nav-link" href="#">Contacto</a>
+        </nav>
       </div>
-      <nav class="nav">
-        <a class="nav-link active" href="#">Inicio</a>
-        <a class="nav-link" href="#">Acerca de</a>
-        <a class="nav-link" href="#">Servicios</a>
-        <a class="nav-link" href="#">Contacto</a>
-      </nav>
     </div>
   </header>
 
@@ -54,9 +56,19 @@
     </a>
   </div>
 
-  <!-- Aquí iría el contenido principal de tu página -->
+  <!-- Contenido principal de la página -->
+  <main>
+    <h1>Bienvenido a mi página web</h1>
+    <!-- ... El contenido principal de tu página iría aquí ... -->
+  </main>
+
+  <footer class="bg-dark text-white">
+    <div class="container py-3">
+      <p>© 2023 Mi Empresa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.0/js/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

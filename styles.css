@@ -28,4 +28,16 @@ body {
     background-color: #555;
   }
   
+  /* Estilos para el carrusel */
+  .carousel-inner img {
+    max-height: 400px; /* Ajusta la altura máxima de las imágenes del carrusel */
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
   
